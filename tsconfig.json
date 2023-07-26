@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "es6",
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "outDir": "./lib",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": false,
+    "moduleResolution": "node"
+  },
+  "compileOnSave": true,
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "tests/**", "lib/**", "tests"]
+}
